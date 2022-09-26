@@ -1,0 +1,86 @@
+.landing
+    &_block
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding-top: 60px
+        +phone
+            display: flex
+            justify-content: space-between
+            flex-direction: column
+    &_text
+        width: calc( 50% - 195px )
+        +laptop
+            width: calc( 50% - 50px )
+        +tablet
+            width: 100%
+            text-align: center
+        +phone
+            width: 100%
+            padding-top: 100px
+        & h3
+            font-weight: 400
+            font-size: rem(48px)
+            line-height: 62px
+            letter-spacing: 0.288px
+            color: #000000
+            +tablet
+                font-size: rem(20px)
+                line-height: 30px
+        & p
+            font-size: 13px
+            line-height: 20px
+            color: #46474E
+    &_create
+        padding: 12px 48px
+        background: #000
+        color: #fff
+        font-size: rem(15px)
+        line-height: 54px
+        margin-top: 29px
+        text-align: center
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 8px
+        +tablet
+            padding: 6px 12px
+        +phone
+            font-size: rem(10px)
+            // padding: 0px 0px
+            // background: #fff
+            // color: #000
+            // box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25)
+            // border-radius: 0px
+    &_image
+        width: 50%
+        margin-bottom: 145px
+        & img 
+            width: 100%
+        +tablet
+            width: 40%
+            align-items: center
+            margin-bottom: 20px
+        +phone
+            transform: translateY(0px)
+
+         
+    &_sign
+        font-size: 13px
+        line-height: 20px
+        color: #46474E
+    &_learn
+        display: flex
+        justify-content: center
+        align-items: center
+    // &_last
+    //     display: flex
+    //     justify-content: center
+    //     padding: 19px 23px
+    //     background-color: #ccc
+    //     & p
+    //         margin-left: 8px
+    //         margin-right: 4px
+    // &_oku
+    //     margin-right: 33px    
+    // &_learn
+    //     margin-right: 42px
+    

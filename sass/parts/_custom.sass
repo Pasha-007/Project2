@@ -1,0 +1,50 @@
+.custom
+    margin-top: 24px
+    &_block
+        display: flex
+        justify-content: space-between
+        align-items: center
+        +laptop
+            display: flex
+            flex-direction: column
+    &_item1
+        padding: 65px 120px 0px 120px 
+        background: #F3F4F4
+        border-radius: 8px
+        text-align: center
+        +laptop
+            margin-bottom: 20px
+        +phone 
+            padding: 10px 120px 0px 120px
+        & h3
+            font-weight: 400
+            font-size: rem(36px)
+            line-height: 47px
+            text-align: center
+            letter-spacing: 0.216px
+            color: #000000
+            margin-bottom: 31px
+            +phone
+                margin-bottom: 0px
+        & img
+            width: 100%
+    &_item2
+        padding: 65px 0px 0px 0px
+        background: #F3F4F4
+        border-radius: 8px
+        +phone
+            padding: 10px 0px 0px 0px 
+        & img
+            width: 100%
+        & h3
+            font-weight: 400
+            font-size: rem(36px)
+            line-height: 47px
+            text-align: center
+            letter-spacing: 0.216px
+            color: #000000
+            margin-bottom: 37px
+            +phone
+                // line-height: 0px
+                margin-bottom: 0px
+  
